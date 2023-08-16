@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const httpLib                 = require('../services/httpServices');
 const dbProperties = require('../database/dbproperties.js');
 const envProperties = require('../properties/envproperties')
+const logging                 = require('../logging/logging');
 
 const initializeServer = async () => {
   try {

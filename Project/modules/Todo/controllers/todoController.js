@@ -1,5 +1,7 @@
-const todoService = require('../../../services/todoServices');
+const todoService = require('../services/todoServices');
 const todo = require('../../../database/model.js')
+const logging = require('../../../logging/logging.js')
+
 
 exports.getList = async(req,resp)=>{
     try{

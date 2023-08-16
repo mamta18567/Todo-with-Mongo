@@ -1,4 +1,5 @@
 const Todo = require('../../../database/model.js');
+const logging            = require('../../../logging/logging');
 
 exports.createTodo = async (todoData) => {
     const newTodo = new Todo(todoData);
