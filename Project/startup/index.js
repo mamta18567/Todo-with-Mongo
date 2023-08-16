@@ -1,7 +1,7 @@
 'use strict';
 
 const mongoose = require('mongoose');
-const httpLib                 = require('../modules/Todo/services/httpServices');
+const httpLib                 = require('../services/httpServices');
 const dbProperties = require('../database/dbproperties.js');
 const envProperties = require('../properties/envproperties')
 

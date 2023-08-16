@@ -1,4 +1,4 @@
-const todoDao = require('../dao/todoDao.js');
+const todoDao = require('../modules/Todo/dao/todoDao');
 
 exports.createTodo = async (todoData) => {
     return todoDao.createTodo(todoData);
